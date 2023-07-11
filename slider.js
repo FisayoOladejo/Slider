@@ -1,7 +1,7 @@
 let imageVar = document.getElementById('image'); // getting image from html through the id of image 
 let imageArray = ['image/slide1.jpg', 'image/slide2.jpg', 'image/slide3.jpg', 'image/slide4.jpg', 'image/slide5.jpg']; 
 
-let imageIndex = 0; // set index of the array to start from zero means slide will start from slide1.jpg
+let imageIndex = 0;  // set index of the array to start from zero means slide will start from slide1.jpg
 
 function slideShow(){
   imageVar.setAttribute('src', imageArray[imageIndex]);
